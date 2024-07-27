@@ -1,4 +1,26 @@
-body .arab{
-    direction: rtl;
-    text-align: right;
+body .arab {
+  direction: rtl;
+  text-align: right;
+}
+.arab-testimonial-carousel .owl-dots {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.arab-testimonial-carousel .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  background: #c1dad0;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.arab-testimonial-carousel .owl-dot.active {
+  width: 30px;
+  background: var(--bs-primary);
 }

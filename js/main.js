@@ -67,6 +67,7 @@
         dots: true,
         loop: true,
         margin: 0,
+        // rtl:true,
         nav : true,
         navText: false,
         responsiveClass: true,
