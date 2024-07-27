@@ -14,3 +14,8 @@
 .arab .me-2 {
     margin-left: 0.5rem !important;
 }
+
+.arab .form-switch {
+  padding-left: unset;
+  padding-right: 2.5em;
+}

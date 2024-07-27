@@ -24,9 +24,10 @@ body .arab {
   width: 30px;
   background: var(--bs-primary);
 }
-.arab .top-info{
-    direction: ltr;
+.arab .top-info {
+  direction: ltr;
 }
-.arab .top-info a{
-color: #6c757d;
+.arab .top-info a {
+  color: #6c757d;
 }
+

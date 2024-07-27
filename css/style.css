@@ -20,6 +20,9 @@
   font-weight: 600;
   transition: 0.5s;
 }
+/* *{
+overflow-x: hidden;
+} */
 
 .btn-square {
   width: 38px;
@@ -425,6 +428,7 @@
   padding: 20px 25px;
   background: var(--bs-primary);
   border-radius: 10px;
+  width:300px;
 }
 
 .project-item:hover .project-content {
@@ -688,7 +692,8 @@
 }
 
 .location-iframe iframe {
-  margin-top: 30px;
+  width: 250px;
+  height: 250px;
 }
 
 .logo {
@@ -698,6 +703,20 @@
 }
 .image500-450 img {
   height: 350px;
- 
+
   object-fit: cover;
+}
+@media (max-width: 1399px) {
+  .contact-detail a {
+    font-size: 18px;
+  }
+  .location-iframe iframe {
+    width: 190px;
+    height: 250px;
+  }
+}
+@media (max-width: 433px) {
+  .contact-detail a {
+    font-size: 14px;
+  }
 }
