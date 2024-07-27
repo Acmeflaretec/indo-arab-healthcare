@@ -1,10 +1,13 @@
 .arab .pe-4 {
-    padding-left: 1.5rem !important;
-  }
-  .arab .me-4 {
-    margin-left: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.arab .me-4 {
+  margin-left: 1.5rem !important;
 }
 .arab .ms-4 {
-    margin-right: 1.5rem !important;
-  
-  }
+  margin-right: 1.5rem !important;
+}
+.arab .ms-3 {
+  margin-right: 1rem !important;
+  margin-left: unset;
+}
