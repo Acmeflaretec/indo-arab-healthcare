@@ -117,9 +117,10 @@ overflow-x: hidden;
   outline: none;
 }
 
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: var(--bs-secondary) !important;
+  color: black !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -212,7 +213,7 @@ overflow-x: hidden;
   background: var(--bs-secondary);
   transition: 0.8s;
 }
-.carousel-content{
+.carousel-content {
   padding-top: 75px;
 }
 
@@ -234,16 +235,16 @@ overflow-x: hidden;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2 {
-  background: #1842b6;
-  color: var(--bs-white);
+  background:  #65fedb;
+  color:black;
   opacity: 1;
   border: 0;
   border-radius: 20px;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
-  background: var(--bs-secondary);
-  color: var(--bs-white);
+  background: #fff;
+  color:black;
   border: 0;
   opacity: 1;
   transition: 1s;
@@ -339,7 +340,7 @@ overflow-x: hidden;
   top: 0;
   left: 0;
   border-radius: 10px 10px 0 0;
-  background: #25262ce6;
+  background: black;
   transition: 0.5s;
 }
 
@@ -366,7 +367,7 @@ overflow-x: hidden;
 }
 
 .services-item:hover .services-content-icon i {
-  color: var(--bs-secondary) !important;
+  color: #65fedb !important;
 }
 
 .services-item:hover .services-content-icon p {
@@ -393,7 +394,7 @@ overflow-x: hidden;
   height: 150px;
   top: 0;
   left: 0;
-  background: var(--bs-secondary);
+  background: #65fedb;
   border-radius: 10px;
   opacity: 1;
   z-index: -1;
@@ -431,7 +432,7 @@ overflow-x: hidden;
   padding: 20px 25px;
   background: var(--bs-primary);
   border-radius: 10px;
-  width:300px;
+  width: 300px;
 }
 
 .project-item:hover .project-content {
@@ -637,11 +638,11 @@ overflow-x: hidden;
 }
 
 .contact-map {
-  background: #26d48c;
+  background: #65fedb;
 }
 
 .contact-form {
-  background: #26d48c;
+  background: #65fedb;
 }
 
 /*** Contact End ***/
@@ -672,7 +673,7 @@ overflow-x: hidden;
 .arabic-switch {
   display: none;
 }
-.arabic-switch span{
+.arabic-switch span {
   color: black;
 }
 
@@ -689,8 +690,6 @@ overflow-x: hidden;
   display: none;
 }
 
-
-
 @media (max-width: 991px) {
   .arabic-switch-mobile {
     display: flex;
@@ -704,13 +703,17 @@ overflow-x: hidden;
   height: 250px;
 }
 
-.logo {
+.logo img {
   height: auto;
   width: auto;
   max-width: 100%;
+  max-height: 100%;
+
+
 }
 .image500-450 img {
   height: 350px;
+  width: 500px;
   object-fit: cover;
 }
 @media (max-width: 1399px) {
@@ -727,3 +730,5 @@ overflow-x: hidden;
     font-size: 14px;
   }
 }
+
+

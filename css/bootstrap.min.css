@@ -205,11 +205,11 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #1842b6;
+  color: #65fedb;
   text-decoration: none;
 }
 a:hover {
-  color: #133592;
+  color: #65fedb;
 }
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -2607,19 +2607,19 @@ fieldset:disabled .btn {
   opacity: 0.65;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #1842b6;
-  border-color: #1842b6;
+  color: black;
+  background-color: #65fedb;
+  border-color: #65fedb;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #14389b;
-  border-color: #133592;
+  color: black;
+  background-color: #65fedb;
+  border-color: #65fedb;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: #14389b;
+  background-color: red;
   border-color: #133592;
   box-shadow: 0 0 0 0.25rem rgba(59, 94, 193, 0.5);
 }
@@ -2647,13 +2647,13 @@ fieldset:disabled .btn {
 }
 .btn-secondary {
   color: #000;
-  background-color: #26d48c;
-  border-color: #26d48c;
+  background-color: #65fedb;
+  border-color: #65fedb;
 }
 .btn-secondary:hover {
   color: #000;
-  background-color: #47da9d;
-  border-color: #3cd898;
+  background-color: #65fedb;
+  border-color: #65fedb;
 }
 .btn-check:focus + .btn-secondary,
 .btn-secondary:focus {
@@ -3796,7 +3796,6 @@ fieldset:disabled .btn {
   background-size: 100%;
   /* border: 0.5px solid grey;  */
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  
 }
 
 .navbar-nav-scroll {
@@ -3854,7 +3853,6 @@ fieldset:disabled .btn {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
-
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
@@ -4019,7 +4017,6 @@ fieldset:disabled .btn {
   color: rgba(255, 255, 255, 0.55);
   border-color: rgba(255, 255, 255, 0.1);
 }
-
 
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.55);
@@ -6849,10 +6846,10 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: #1842b6 !important;
+  color: black !important;
 }
 .text-secondary {
-  color: #26d48c !important;
+  color: #65fedb;
 }
 .text-success {
   color: #f0f0f0 !important;
@@ -6891,10 +6888,10 @@ fieldset:disabled .btn {
   color: inherit !important;
 }
 .bg-primary {
-  background-color: #fff !important;
+  background-color: #65fedb !important;
 }
 .bg-secondary {
-  background-color: #26d48c !important;
+  background-color: #65fedb !important;
 }
 .bg-success {
   background-color: #198754 !important;
@@ -10091,4 +10088,3 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-
