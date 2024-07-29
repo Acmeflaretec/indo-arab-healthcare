@@ -212,6 +212,9 @@ overflow-x: hidden;
   background: var(--bs-secondary);
   transition: 0.8s;
 }
+.carousel-content{
+  padding-top: 75px;
+}
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
   background: var(--bs-secondary);
@@ -685,6 +688,8 @@ overflow-x: hidden;
 .arabic-switch-mobile {
   display: none;
 }
+
+
 
 @media (max-width: 991px) {
   .arabic-switch-mobile {
