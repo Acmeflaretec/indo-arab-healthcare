@@ -3794,7 +3794,11 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  /* border: 0.5px solid grey;  */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
 }
+
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
@@ -4015,9 +4019,8 @@ fieldset:disabled .btn {
   color: rgba(255, 255, 255, 0.55);
   border-color: rgba(255, 255, 255, 0.1);
 }
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+
+
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.55);
 }
@@ -6888,7 +6891,7 @@ fieldset:disabled .btn {
   color: inherit !important;
 }
 .bg-primary {
-  background-color: #25262ce6 !important;
+  background-color: #fff !important;
 }
 .bg-secondary {
   background-color: #26d48c !important;

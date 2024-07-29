@@ -31,3 +31,31 @@ body .arab {
   color: #6c757d;
 }
 
+.arab #note {
+  width: 500px;
+  overflow: hidden;
+}
+
+.arab #note small {
+  position: relative;
+  display: inline-block;
+  animation: mymove 15s infinite;
+  animation-timing-function: all;
+}
+
+@keyframes mymove {
+  from {
+    right: 100%;
+  }
+  to {
+    right: -100%;
+  }
+}
+
+
+
+.arab .contact-form input,
+.arab .contact-form textarea {
+  text-align: right; /* Align text to the right */
+  direction: rtl; /* Set text direction to RTL */
+}

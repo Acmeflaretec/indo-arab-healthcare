@@ -112,7 +112,7 @@ overflow-x: hidden;
 
 .navbar .navbar-nav .nav-link {
   padding: 10px;
-  color: var(--bs-white);
+  color: black;
   font-size: 18px;
   outline: none;
 }
@@ -669,6 +669,9 @@ overflow-x: hidden;
 .arabic-switch {
   display: none;
 }
+.arabic-switch span{
+  color: black;
+}
 
 @media (min-width: 992px) {
   .arabic-switch {
@@ -703,7 +706,6 @@ overflow-x: hidden;
 }
 .image500-450 img {
   height: 350px;
-
   object-fit: cover;
 }
 @media (max-width: 1399px) {
