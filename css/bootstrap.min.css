@@ -589,7 +589,7 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) / -2);
+  /* margin-right: calc(var(--bs-gutter-x) / -2); */
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
 .row > * {
@@ -6846,7 +6846,7 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: black !important;
+  color: #1842b6 !important;
 }
 .text-secondary {
   color: #65fedb;
