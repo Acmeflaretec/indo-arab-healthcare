@@ -340,7 +340,7 @@ overflow-x: hidden;
   top: 0;
   left: 0;
   border-radius: 10px 10px 0 0;
-  background: black;
+  background: #428aff;
   transition: 0.5s;
 }
 
@@ -630,8 +630,8 @@ overflow-x: hidden;
   width: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(rgb(210, 243, 235, 1), rgba(230, 250, 245, 0.3)),
-    url(../img/background.jpg) center center no-repeat;
+  /* background: linear-gradient(rgb(210, 243, 235, 1), rgba(230, 250, 245, 0.3)),
+    url(../img/background.jpg) center center no-repeat; */
   background-size: cover;
   border-radius: 10px;
   z-index: -1;
@@ -642,7 +642,7 @@ overflow-x: hidden;
 }
 
 .contact-form {
-  background: #65fedb;
+  background: black;
 }
 
 /*** Contact End ***/
@@ -732,3 +732,45 @@ overflow-x: hidden;
 }
 
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.contact-form {
+  width: 100%; /* Adjust width as needed */
+  max-width: 500px; /* Maximum width for the form */
+}
+
+
+
+/* <div class="" style="top: 25%; left: 25%;">
+<img src="img/indo-img/indiamap.jpeg" class="img-fluid w-100 rounded" alt="">
+</div>
+
+<form id="submit-form" class="p-5 rounded contact-form">
+<div class="mb-4">
+    <input type="text" class="form-control border-0 py-3" name="name"
+        placeholder="Name">
+</div>
+<div class="mb-4">
+    <input type="tel" class="form-control border-0 py-3" name="phone"
+        placeholder="Phone">
+</div>
+<div class="mb-4">
+    <input type="tel" class="form-control border-0 py-3" name="email"
+        placeholder="Email">
+</div>
+
+<div class="mb-4">
+    <textarea class="w-100 form-control border-0 py-3" name="message" rows="6" cols="10"
+        placeholder="Message"></textarea>
+</div>
+<div class="text-start">
+    <button class="btn bg-warning text-dark py-3 px-5" id="submit-button"
+        type="submit">Send
+        Message</button>
+</div>
+</form> */
