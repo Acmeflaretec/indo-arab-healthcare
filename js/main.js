@@ -120,7 +120,7 @@
     );
 
     $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbzGm8ZSuWpyR3GlS4gyQ67ClsiV-OnjZ2quPo8Pcmt4guEwd4A3Vno8zClqvE9tNkto/exec",
+      url: "https://script.google.com/macros/s/AKfycbwhI1I8kFkhSjnB5yTgjrVmb4hRXyJI7thBLULJqDAOXZFNHQErQn4aPEDCJUEQ2dEz/exec",
       data: $("#submit-form").serialize(),
       method: "post",
       success: function (response) {
