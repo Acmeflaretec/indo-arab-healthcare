@@ -777,31 +777,3 @@ overflow-x: hidden;
   max-width: 500px; /* Maximum width for the form */
 }
 
-/* <div class="" style="top: 25%; left: 25%;">
-<img src="img/indo-img/indiamap.jpeg" class="img-fluid w-100 rounded" alt="">
-</div>
-
-<form id="submit-form" class="p-5 rounded contact-form">
-<div class="mb-4">
-    <input type="text" class="form-control border-0 py-3" name="name"
-        placeholder="Name">
-</div>
-<div class="mb-4">
-    <input type="tel" class="form-control border-0 py-3" name="phone"
-        placeholder="Phone">
-</div>
-<div class="mb-4">
-    <input type="tel" class="form-control border-0 py-3" name="email"
-        placeholder="Email">
-</div>
-
-<div class="mb-4">
-    <textarea class="w-100 form-control border-0 py-3" name="message" rows="6" cols="10"
-        placeholder="Message"></textarea>
-</div>
-<div class="text-start">
-    <button class="btn bg-warning text-dark py-3 px-5" id="submit-button"
-        type="submit">Send
-        Message</button>
-</div>
-</form> */
