@@ -153,6 +153,14 @@ overflow-x: hidden;
 /*** Navbar End ***/
 
 /*** Carousel Start ***/
+@media (min-width: 992px) {
+  .carousel-img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+  }
+}
+
 
 .carousel-item {
   position: relative;
@@ -165,7 +173,7 @@ overflow-x: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+
 }
 
 .carousel-caption {
