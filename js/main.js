@@ -103,33 +103,38 @@
     });
   });
 
-  // Submit Button
-  $("#submit-form").submit((e) => {
-    e.preventDefault();
-
-    if (!e.target.checkValidity()) {
-      e.stopPropagation();
-      return;
-    }
-
-    // Show spinner and change button text
-    let submitButton = $("#submit-button");
-    submitButton.html(
-      '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>'
-    );
-
-    $.ajax({
-      url: "https://script.google.com/macros/s/AKfycbwhI1I8kFkhSjnB5yTgjrVmb4hRXyJI7thBLULJqDAOXZFNHQErQn4aPEDCJUEQ2dEz/exec",
-      data: $("#submit-form").serialize(),
-      method: "post",
-      success: function (response) {
-        alert("Form submitted successfully");
-        window.location.reload();
-        //window.location.href="https://google.com"
-      },
-      error: function (err) {
-        alert("Something Error");
-      },
+  
+    // Bind the submit event to the form
+    $("#submit-form").on("submit", function (e) {
+      e.preventDefault(); // Prevent default form submission behavior
+  
+      if (!e.target.checkValidity()) {
+        e.stopPropagation();
+        alert("Please fill in all required fields."); // Optional: add a user-friendly message
+        return;
+      }
+  
+      // Show spinner and disable the submit button
+      let submitButton = $("#submit-button");
+      submitButton.html(
+        '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Submitting...'
+      ).prop("disabled", true);
+  
+      // Perform AJAX request
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbxu7pY11pNq4eD8bffsPotzoO55Prw6BI5BhddMgi8zk5g1N2wE72uPv_-kbD4dPesB/exec",
+        data: $(this).serialize(),
+        method: "POST",
+        success: function (response) {
+          alert("Form submitted successfully");
+          $("#submit-form")[0].reset(); // Reset form fields
+          submitButton.html("Submit").prop("disabled", false); // Reset button text and state
+        },
+        error: function (err) {
+          alert("Something went wrong. Please try again.");
+          submitButton.html("Submit").prop("disabled", false); // Reset button text and state
+        },
+      });
     });
-  });
-})(jQuery);
+  })(jQuery);
+  
