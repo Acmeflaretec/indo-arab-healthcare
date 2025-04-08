@@ -122,7 +122,7 @@
   
       // Perform AJAX request
       $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbxu7pY11pNq4eD8bffsPotzoO55Prw6BI5BhddMgi8zk5g1N2wE72uPv_-kbD4dPesB/exec",
+        url: "https://script.google.com/macros/s/AKfycbwH7wUeBHlwBXYxhaKEnt7hPY-raIoB1v1PxuXoHcMwfAt8ecC4Rl_y44Hk_n8ESNq2/exec",
         data: $(this).serialize(),
         method: "POST",
         success: function (response) {
